@@ -1,0 +1,161 @@
+
+body {
+  font-family: '微軟正黑體', 'Microsoft JhengHei', Arial !important;
+}
+article {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  background-color: #f68825;
+  box-shadow: 0 2px 4px 0 #b5b5b5;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+}
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+
+}
+.hamburger-icon {
+  display: none;
+}
+
+
+
+.menu-logo img {
+  width: 110px;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+}
+
+.menu-title {
+  font-size: 20px;
+  color: rgb(252, 248, 246);
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.menu-title a, .list-items a, 
+.list-buy a, .menu-title a{
+  color: rgb(230, 243, 243);
+  text-decoration:none;
+}
+
+
+.menu-title .list-items-title,
+.menu-title .list-buy-title {
+  cursor: pointer;
+ 
+}
+
+.menu-title .list-items,
+.menu-title .list-buy {
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: right;
+}
+
+
+.owl-carousel {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+}
+
+.owl-carousel img {
+  width: 100px;
+}
+
+.tab-content-group {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tab-content-group>div {
+  padding: 20px;
+  background-color: rgba(209, 97, 23, 0.26);
+  display: none;
+  position: absolute;
+}
+
+.tab-content-group>div.show {
+  display: block;
+}
+
+
+
+
+.salad-title h3 {
+  margin:30px;
+  font-size: 20px;
+  color: rgba(255, 68, 0, 0.746);
+  font-weight: bold;
+}
+
+
+.saladitem ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.saladitem img {
+  width: 250px;
+  margin: 20px;
+}
+
+.saladitem ul h4 {
+  font-size: 18px;
+  color: rgba(233, 45, 12, 0.938);
+  text-align: center;
+  
+}
+
+.saladitem ul h5 {
+  margin: 15px;
+  color: brown;
+  text-align: center;
+}
+
+.saladitem ul p {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  margin-top: 150px;
+  background-color: #f06626df;
+}
+
+footer img {
+  width: 80px;
+}
+
+.footer-bar {
+  display: flex;
+  justify-content:space-around;
+  color:#eee;
+}
+
+.footer-information {
+  margin-top: 30px;
+  display: flex;
+}
+
+.address {
+  margin-right: 10px;
+}
+.email {
+  margin-top: 10px;
+}
