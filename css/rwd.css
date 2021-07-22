@@ -1,10 +1,10 @@
-@media (max-width:375px) { 
+@media (max-width:414px) { 
   .menu-page {
-    width: 375px;
+    width: 100%;
   }
 
   .header-main {
-    width: 375px;
+    width: 100%;
   }
 
   nav {
@@ -51,9 +51,7 @@
     font-size: 26px;
   }
   iframe {
-    width: 320px;
-    height: 215px;
-    margin-left: 8px;
+    width: 100%;
   }
 
   #article1 p,
@@ -88,7 +86,7 @@
   }
 
   footer {
-    width: 375px;
+    width: 100%;
   }
 
  .footer-information .email,
