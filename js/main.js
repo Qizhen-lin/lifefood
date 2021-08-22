@@ -21,3 +21,4 @@ $("#goBackBtn").click(function () {
         scrollTop:0
     }, duration);
 });
+
